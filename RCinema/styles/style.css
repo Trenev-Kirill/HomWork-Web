@@ -1,0 +1,180 @@
+body {
+    margin: 0;  
+    background-color: #121521;
+    font-family: 'Josefin Sans';
+    font-family: 'Darker Grotesque';
+}
+
+.container {
+    width: 1242px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.align-cn {
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-sb {
+    justify-content: space-between;
+}
+
+.header-menu {
+    margin-top: 56px;
+    margin-bottom: 58px;
+}
+
+
+.header-menu__list {
+    list-style: none;
+}
+
+.header-menu__list li {
+    margin-right: 42px;
+    font-size: 20px;
+}
+
+.header-menu__list a {
+    font-family: Darker Grotesque;
+    font-weight: 500;
+}
+
+.main-banner {
+    margin-bottom: 120px;
+}
+
+.banner-left {
+    height: 382px;
+    width: 455px;
+    margin-right: 75px;
+}
+
+.banner-left__text--grey-text {
+    color: #B2B2D3;
+    font-family: Darker Grotesque;
+    font-weight: 400;
+}
+
+.banner-left__text-top {
+    line-height: 27.12px;
+    font-size: 20px;
+}
+
+.bannert-left__text-bottom {
+    line-height: 43.39px;
+    font-size: 32px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    line-height: 60px;
+    width: 455px;
+}
+
+.banner-img {
+    overflow-x: hidden;
+}
+
+.btn-filth {
+    background-color: #40467C;
+    border: 1px solid #40467C;
+    display: flex;
+    font-family: Darker Grotesque;
+    font-weight: 600;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.btn-white {
+    border: 2px solid #fff;
+    display: flex;
+    font-family: Darker Grotesque;
+    font-weight: 600;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.banner-left__btn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.banner-left__btn--one {
+    width: 176px;
+    height: 59px;
+}
+
+.banner-left__btn--two {
+    width: 204px;
+    height: 59px;
+}
+
+.block-open-air {
+    background-color: #1B213A;
+    height: 530px;
+}
+
+.block-open-air img {
+    margin-right: 30px;
+}
+
+.block-right-text h2 {
+    color: white;
+    font-size: 46px;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    line-height: 46px;
+    width: 427px;
+    margin-bottom: 31px;
+}
+
+.block-right-text--grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.block-right-text__item {
+    width: 273px;
+    height: 102px;
+}
+
+.block-right-text__item h3{
+    font-family: Darker Grotesque;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.block-right-text__item--height-1 {
+    height: 30px;
+}
+
+.block-right-text__item--height-2 {
+    height: 60px;
+}
+
+.block-right-text__item p {
+    font-family: Darker Grotesque;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #B2B2D3;
+}
